@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_banner_2s",
+  "info": {
+    "singularName": "home-banner-2",
+    "pluralName": "home-banner-2s",
+    "displayName": "Home Banner 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "required": true,
+      "default": " Creative Digital Agency"
+    },
+    "title": {
+      "type": "string",
+      "default": "Creative Idea & Brand Solutions",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.",
+      "required": true
+    },
+    "btnOneText": {
+      "type": "string",
+      "default": "Get A Quote",
+      "required": true
+    },
+    "btnOneLink": {
+      "type": "string",
+      "required": true,
+      "default": "/contact"
+    },
+    "btnTwoText": {
+      "type": "string",
+      "default": "Learn More",
+      "required": true
+    },
+    "btnTwoLink": {
+      "type": "string",
+      "required": true,
+      "default": "/about"
+    },
+    "bannerBgImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

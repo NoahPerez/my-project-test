@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_banner_3s",
+  "info": {
+    "singularName": "home-banner-3",
+    "pluralName": "home-banner-3s",
+    "displayName": "Home Banner 3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Creative Digital Agency",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Building Brands With Purpose And Passion",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur adipiscing elit et fames maecenas amet est scelerisque lectus tortor sit.",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get A Quote",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

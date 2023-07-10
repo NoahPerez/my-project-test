@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "working_processes",
+  "info": {
+    "singularName": "working-process",
+    "pluralName": "working-processes",
+    "displayName": "Working Process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Working Process",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Easy Process We Follow To Get Result",
+      "required": true
+    },
+    "process": {
+      "type": "component",
+      "repeatable": true,
+      "component": "working-process.process"
+    }
+  }
+}

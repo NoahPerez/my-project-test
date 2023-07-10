@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "get_to_works",
+  "info": {
+    "singularName": "get-to-work",
+    "pluralName": "get-to-works",
+    "displayName": "Get to Work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Have a project in mind?",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Let's get to work!",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Contact Us",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    }
+  }
+}

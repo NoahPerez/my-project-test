@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_expertise_style_3s",
+  "info": {
+    "singularName": "our-expertise-style-3",
+    "pluralName": "our-expertise-style-3s",
+    "displayName": "Our Expertise Style 3",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Our Expertise",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": " BooBusiness With Creative Idea & Brand Solutions With Us",
+      "required": true
+    },
+    "shortDec": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur adipiscing elit et fames maecenas amet est scelerisque lectus tortor sit lorem ipsum dolor sit amet consectetur adipiscing elit et fames maecenas amet.",
+      "required": true
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "why-choose-us.item"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

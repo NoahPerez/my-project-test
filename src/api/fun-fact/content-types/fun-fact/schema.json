@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "fun_facts",
+  "info": {
+    "singularName": "fun-fact",
+    "pluralName": "fun-facts",
+    "displayName": "Fun Fact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FunFactItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fun-facts.item"
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Our Funfact",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Working Together To Create Something Unique",
+      "required": true
+    }
+  }
+}

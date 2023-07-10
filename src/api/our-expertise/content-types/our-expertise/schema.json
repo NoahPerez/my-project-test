@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_expertises",
+  "info": {
+    "singularName": "our-expertise",
+    "pluralName": "our-expertises",
+    "displayName": "Our Expertise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Our Expertise",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Boost Business With Creative Idea & Brand Solutions With Us"
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur adipiscing elit et fames maecenas amet est scelerisque lectus tortor sit lorem ipsum dolor sit amet consectetur adipiscing elit et fames maecenas amet est scelerisque lectus tortor sit.",
+      "required": true
+    },
+    "expertiseItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "why-choose-us.item"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

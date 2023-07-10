@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Our Testimonials",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "What Our Clients Are Saying?",
+      "required": true
+    },
+    "testimonialItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonials.item"
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur adipiscing elit et fames maecenas amet est scelerisque lectus tortor sit lorem ipsum dolor.",
+      "required": false
+    }
+  }
+}

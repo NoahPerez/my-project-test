@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_choose_us_style_2s",
+  "info": {
+    "singularName": "why-choose-us-style-2",
+    "pluralName": "why-choose-us-style-2s",
+    "displayName": "Why Choose Us Style 2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Why Choose Us",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Our Working Process To Help Your Boost Your Business",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur adipiscing elit et fames maecenas amet est scelerisque lectus tortor sit lorem ipsum dolor sit amet consectetur adipiscing elit et fames maecenas amet.",
+      "required": true
+    },
+    "chooseItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "why-choose-us.item"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_why_choose_us_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Advertising & Branding",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur adipiscing elit velit sagittis eu viverra pellentesque condimentum.",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "default": "flaticon-ad-campaign",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_our_company_style_2s",
+  "info": {
+    "singularName": "about-our-company-style-2",
+    "pluralName": "about-our-company-style-2s",
+    "displayName": "About Our Company Style 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "image2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "About Our Company",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Best Award Winning Creative Agency Shape Of Perfect Solution",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Learn More",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/about",
+      "required": true
+    }
+  }
+}

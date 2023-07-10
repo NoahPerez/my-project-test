@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_fun_facts_items",
+  "info": {
+    "displayName": "item",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "default": "ri-user-line"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_working_process_processes",
+  "info": {
+    "displayName": "process",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Discovery",
+      "required": true
+    },
+    "shortDec": {
+      "type": "text",
+      "required": true,
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+    },
+    "number": {
+      "type": "string",
+      "default": "01",
+      "required": true
+    }
+  }
+}

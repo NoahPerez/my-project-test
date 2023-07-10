@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_expert_teams",
+  "info": {
+    "singularName": "our-expert-team",
+    "pluralName": "our-expert-teams",
+    "displayName": "Our Expert Team",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Our Expert Team",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Alone We Can Do So Little Together We Can Do So Much",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur adipiscing elit fames maecenas amet est scelerisque lectus tortor sit.",
+      "required": true
+    },
+    "teamMember": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team.card"
+    }
+  }
+}

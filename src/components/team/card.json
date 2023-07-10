@@ -1,0 +1,69 @@
+{
+  "collectionName": "components_team_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Thomas Adison",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "default": "CEO & Founder",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "facebookIcon": {
+      "type": "string",
+      "default": "ri-facebook-fill",
+      "required": true
+    },
+    "facebookLink": {
+      "type": "string",
+      "default": "#",
+      "required": true
+    },
+    "twitterIcon": {
+      "type": "string",
+      "default": "ri-twitter-fill",
+      "required": true
+    },
+    "twitterLink": {
+      "type": "string",
+      "default": "#",
+      "required": true
+    },
+    "instagramIcon": {
+      "type": "string",
+      "default": "ri-instagram-line",
+      "required": true
+    },
+    "instagramLink": {
+      "type": "string",
+      "default": "#",
+      "required": true
+    },
+    "linkedinIcon": {
+      "type": "string",
+      "default": "ri-linkedin-line",
+      "required": true
+    },
+    "linkedinLink": {
+      "type": "string",
+      "default": "#",
+      "required": true
+    }
+  }
+}

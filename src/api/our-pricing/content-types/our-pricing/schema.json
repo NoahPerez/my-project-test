@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_pricings",
+  "info": {
+    "singularName": "our-pricing",
+    "pluralName": "our-pricings",
+    "displayName": "Our Pricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Our Pricing",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Choose The Best Pricing Plan We Can Help You With",
+      "required": true
+    },
+    "priceCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.card"
+    }
+  }
+}

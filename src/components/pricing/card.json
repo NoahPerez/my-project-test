@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_pricing_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BasicPlan": {
+      "type": "string",
+      "default": "Basic Plan",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "default": "ri-send-plane-line",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "default": "$110",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "default": "/Monthly",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started Today",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "#",
+      "required": true
+    },
+    "helptext": {
+      "type": "string",
+      "default": "Money-Back Guarantee",
+      "required": true
+    },
+    "priceList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-features-list.list"
+    }
+  }
+}

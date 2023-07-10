@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_banner1s",
+  "info": {
+    "singularName": "home-banner1",
+    "pluralName": "home-banner1s",
+    "displayName": "Home Banner 1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string",
+      "default": "Creative Digital Agency",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Create Your Experience With Us",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur adipiscing elit et fames maecenas amet est scelerisque lectus tortor sit.",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get A Quote",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    },
+    "bannerBgText": {
+      "type": "string",
+      "default": "Teza"
+    },
+    "slideImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "single-image.image"
+    }
+  }
+}
