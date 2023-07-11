@@ -4,11 +4,10 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://21416f71.fitomag-nextjs.pages.dev', 'https://site--strapi--6vkv6s4mwd2c.code.run'],
-      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
-      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
-      keepHeaderOnError: true,
-    },
+      enabled: true,
+      headers: '*',
+      origin: ['https://21416f71.fitomag-nextjs.pages.dev', 'https://site--strapi--6vkv6s4mwd2c.code.run']
+    }
   },
   'strapi::cors',
   'strapi::poweredBy',
