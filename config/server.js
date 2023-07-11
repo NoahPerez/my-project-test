@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
   settings: {
     cors: {
       enabled: true,
-      origin: ['https://fitomag-nextjs.pages.dev'],
+      origin: ['https://21416f71.fitomag-nextjs.pages.dev'],
     },
   },
 });

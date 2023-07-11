@@ -4,7 +4,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://fitomag-nextjs.pages.dev', 'https://site--strapi--6vkv6s4mwd2c.code.run'], // Replace with the valid origins for your application
+      origin: ['https://21416f71.fitomag-nextjs.pages.dev', 'https://site--strapi--6vkv6s4mwd2c.code.run'], // Replace with the valid origins for your application
     },
   },
   'strapi::cors',
