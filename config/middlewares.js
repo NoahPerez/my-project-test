@@ -1,6 +1,12 @@
 module.exports = [
   'strapi::errors',
   'strapi::security',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: 'https://fitomag-nextjs.pages.dev', // Replace with your Next.js app domain on Cloudflare
+    },
+  },
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
