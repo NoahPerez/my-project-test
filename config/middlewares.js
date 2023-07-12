@@ -4,9 +4,11 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://21416f71.fitomag-nextjs.pages.dev'], // Replace with the valid origin for your application
-      maxAge: 31536000, // Optional: Set the Access-Control-Max-Age header value
-      credentials: true, // Optional: Set the Access-Control-Allow-Credentials header value
+      origin: ['https://21416f71.fitomag-nextjs.pages.dev', 'https://21416f71.fitomag-nextjs.pages.dev'],
+      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
+      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
+      keepHeaderOnError: true,
+      credentials: true,
     },
   },
   'strapi::poweredBy',
