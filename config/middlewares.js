@@ -9,7 +9,6 @@ module.exports = [
       origin: ['https://21416f71.fitomag-nextjs.pages.dev', 'https://site--strapi--6vkv6s4mwd2c.code.run']
     }
   },
-  'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
