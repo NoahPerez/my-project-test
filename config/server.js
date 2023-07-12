@@ -9,8 +9,8 @@ module.exports = ({ env }) => ({
   },
   settings: {
     cors: {
-      enabled: true,
-      origin: ['https://21416f71.fitomag-nextjs.pages.dev'],
+      origin: ['*'], //allow all origins
+      headers: ['*'], //allow all headers
     },
   },
 });
