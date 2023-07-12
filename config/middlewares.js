@@ -4,10 +4,10 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      enabled: true,
-      headers: '*',
-      origin: ['https://21416f71.fitomag-nextjs.pages.dev', 'https://site--strapi--6vkv6s4mwd2c.code.run']
-    }
+      origin: ['https://21416f71.fitomag-nextjs.pages.dev'], // Replace with the valid origin for your application
+      maxAge: 31536000, // Optional: Set the Access-Control-Max-Age header value
+      credentials: true, // Optional: Set the Access-Control-Allow-Credentials header value
+    },
   },
   'strapi::poweredBy',
   'strapi::logger',
